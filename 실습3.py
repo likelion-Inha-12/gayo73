@@ -1,3 +1,31 @@
-list=['손가영','infp',21]
+from 실습2 import Account
 
-print("안녕하세요 저는 멋쟁이 사자처럼 벡엔드 파트이고\n 이름은",list[0], "입니다.\n 제 mbti는", list[1], "이고\n 나이는",list[2],"살 입니다.")
+class SavingAccount(Account):
+    def __init__(self, name, money, interest):
+        """이자"""
+        super().__init__(name, money)
+        self.interest=interest
+
+    def display_balance(self):
+        """계좌 잔액 정보를 표시합니다."""
+        print("%s님의 계좌 잔액은 %d원입니다." % (self.name,  self.money))
+        print("이자율: %.1f%%"%(self.interest*100))
+
+    def add_interest(self):
+        """이자 추가"""
+        interest_amount=int(self.money*self.interest)
+        self.money+=interest_amount
+        print("%s님의 계좌에 %d원의 이자가 추가되었습니다."%(self.name, interest_amount))
+        
+
+saving_account = SavingAccount("가영", 1000, 0.05)
+
+saving_account.display_balance()
+
+saving_account.deposit(500)
+
+saving_account.add_interest()
+
+saving_account.withdraw(100)
+
+saving_account.display_balance()
