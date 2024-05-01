@@ -37,9 +37,10 @@ Temporary Items
 #파일 제외
 semi/
 util/
-semi_pro/__pycache__
-semi_pro/__init__.py
-semi_pro/tests.py
+semi_pro/lionapp/__pycache__
+semi_pro/lionapp/__init__.py
+semi_pro/lionapp/tests.py
+semi_pro/lionapp/migrations
 semi_pro/manage.py
 
 # End of https://www.toptal.com/developers/gitignore/api/macos
