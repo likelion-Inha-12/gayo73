@@ -1,0 +1,55 @@
+# Created by https://www.toptal.com/developers/gitignore/api/macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos
+
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
+#파일 제외 항목
+semi
+__pycache__
+migrations
+__init__.py
+db.sqlite3
+django-ad/semi_pro/lionapp/tests.py
+django-ad/semi_pro/lionapp/migrations
+django-ad/semi_pro/manage.py
+django-ad/semi_pro/semi_pro
+!django-ad/semi_pro/lionapp/admin.py
+!django-ad/semi_pro/lionapp/apps.py
+!django-ad/semi_pro/lionapp/models.py
+!django-ad/semi_pro/lionapp/urls.py
+!django-ad/semi_pro/lionapp/views.py
+!django-ad/.gitignore
+
+# End of https://www.toptal.com/developers/gitignore/api/macos
+
