@@ -30,9 +30,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### macOS Patch ###
-# iCloud generated files
-*.icloud
 
 #파일 제외 항목
 semi
@@ -40,16 +37,3 @@ __pycache__
 migrations
 __init__.py
 db.sqlite3
-django-ad/semi_pro/lionapp/tests.py
-django-ad/semi_pro/lionapp/migrations
-django-ad/semi_pro/manage.py
-django-ad/semi_pro/semi_pro
-!django-ad/semi_pro/lionapp/admin.py
-!django-ad/semi_pro/lionapp/apps.py
-!django-ad/semi_pro/lionapp/models.py
-!django-ad/semi_pro/lionapp/urls.py
-!django-ad/semi_pro/lionapp/views.py
-!django-ad/.gitignore
-
-# End of https://www.toptal.com/developers/gitignore/api/macos
-

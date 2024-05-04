@@ -8,4 +8,5 @@ admin.site.register(Post)
 admin.site.register(Comment)
 admin.site.register(Member)
 admin.site.register(UserPost)
-# Register your models here.
+
+# 모델 만들기

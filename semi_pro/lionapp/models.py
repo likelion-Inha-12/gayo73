@@ -1,5 +1,7 @@
 from django.db import models
 
+
+
 class Post(models.Model):
     title = models.CharField(max_length=50) # 50글자가 최대인 문자열
     content = models.TextField(null=True, blank=True) # 글자 수 제한이 없는 긴 문자열
@@ -27,4 +29,4 @@ class UserPost(models.Model):
     user_id = models.ForeignKey(Member, verbose_name="user", on_delete=models.CASCADE, related_name="user_posts")
     post_id = models.ForeignKey(Post, verbose_name="post", on_delete=models.CASCADE, related_name="user_posts")
 
-    
+#아이디, 필드

@@ -14,3 +14,5 @@ urlpatterns = [
     path('sort', views.sort_post)
 
 ]
+
+#urls 추가

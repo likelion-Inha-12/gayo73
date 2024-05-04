@@ -80,3 +80,5 @@ def sort_post(request):
         post_list = Post.objects.all().order_by('-like_count')
 
         return HttpResponse(post_list, status=200)
+    
+# 모델 함수
