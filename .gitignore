@@ -1,0 +1,7 @@
+db.sqlite3
+semi
+migrations
+.DS_Store
+__pycache__
+
+#.gitignore 파일 수정
