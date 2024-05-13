@@ -37,3 +37,9 @@ __pycache__
 migrations
 __init__.py
 db.sqlite3
+=======
+db.sqlite3
+semi
+migrations
+.DS_Store
+__pycache__
