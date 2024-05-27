@@ -11,3 +11,6 @@ def api_response(data, message, status):
         "data":data
     }
     return Response(response, status=status)
+
+# views.py
+
